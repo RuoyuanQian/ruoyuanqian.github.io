@@ -6,4 +6,46 @@ output:
     toc_float: true
 ---
 
-aaa
+ 
+**EDUCATIONAL BACKGROUND**
+
+Southern Medical University (SMU)		2015.9~2019.6
+
+Columbia University in the city of New York  2019.9~2021.6
+
+**Degree and major**
+
+Bachelor of Science in Applied Statistics(Biological statistics)
+
+Master of Science in Biostatistics
+
+**Honors**
+
+Silver Award in National College Students Business Plan Competition in Guangdong 
+
+Title of Merit student for three consecutive years, SMU
+
+Third-class Scholarships for two consecutive years, SMU
+
+Excellent League Member, SMU														
+
+**PAPERS**
+
+Estimation of Sample Size and Its Implementation by nQuery Advanced and SAS Software(Compare Mean), Chinese Journal of Health Statistics,Wang Yan, Qian Ruoyuan,Chen Pingyan* 
+
+**INTERNSHIP EXPERIENCE**
+
+Intern, Clinical Research Center (CRC),3rd Affiliated Hospital of Sun Yat-sen University		      2018.7~2018.8
+
+**RESEARCH EXPERIENCE**
+
+`Team Leader` & `Financial Executive`
+
+National College Students Business Plan Competition in Guangdong Province, Development and Marketing of EDC System									               2017.10~2018.5
+
+`Team Leader`
+
+Clinical Trial Data Entry								2017.12
+
+
+

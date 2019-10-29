@@ -9,7 +9,14 @@ output:
 
 # Introductory
 
+This website is a quick way to learn about me!
+
+It contains links about my e-mail and Github account, resume and the simple data analysis displayed by a dashbroad.
+
+It's me!
+
+![](me.jpg)
+
 # Resume
 
-Here's my Resume [Resume](about.html)
-
+Here's my [resume](about.html)
