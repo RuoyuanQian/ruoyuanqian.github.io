@@ -1,0 +1,70 @@
+---
+title: "Dashboard about NY weather"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+noaa = 
+ny_noaa %>% 
+  separate ( date, c("year","month","day"), "-" ) 
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A Scatter plot about snow and snow depth in 1986, 1996, 2006
+
+```{r}
+noaa %>% 
+  drop_na(snwd,snow) %>% 
+  filter(
+         !(snwd ==0),
+         !(snow ==0),
+        year %in% c(1986,1996,2006)) %>% 
+    plot_ly(x = ~snow, y = ~snwd, color = ~year, type = "scatter",alpha = .9,size= ~snwd)
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B Bar plot about the number of snowy days(1996-2006)
+
+```{r}
+noaa %>% 
+  select(year,snow) %>% 
+  group_by(year) %>% 
+  drop_na(snow) %>% 
+  filter(
+         !(snow ==0),
+        year %in% c(1996:2006)) %>% 
+  summarise(n = n()) %>% 
+ plot_ly(x = ~year, y = ~n, color = ~year, type = "bar")
+
+```
+
+### Chart C Boxplot about temperature(1996-2006)
+
+```{r}
+noaa %>% 
+  select(year,tmax) %>% 
+  group_by(year) %>% 
+  drop_na(tmax) %>% 
+  filter(
+        year %in% c(1996:2006)) %>% 
+ plot_ly(y = ~tmax, color = ~year, type = "box")
+
+```
