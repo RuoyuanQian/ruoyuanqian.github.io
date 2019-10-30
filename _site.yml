@@ -4,14 +4,12 @@ navbar:
 # `Home` is a navigation bar!!
   title: "Home"
   right:
-   
-# 为了在网页上有相应的link要先增加代码
     - text: "About"
       href: about.html
     - text: "Dashbroad"
       href: dashbroad.html
     - icon: fa-envelope fa-lg
-      href: mailto:<qianry2019@163.com>
+      href: mailto:rq2166@cumc.columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/RuoyuanQian/
 output:

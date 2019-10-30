@@ -4,10 +4,11 @@ output:
   html_document:
     toc: true
     toc_float: true
-    
 ---
 
 # Introductory
+
+Welcome!
 
 This website is a quick way to learn about me!
 
@@ -20,3 +21,11 @@ It's me!
 # Resume
 
 Here's my [resume](about.html)
+
+
+# [Dashbroad](dashbroad.html)
+
+The data is about New York state weather stations from January 1, 1981 through December 31, 2010. 
+
+Three plots are made to compare the snow and snow depth, the number of snowy days and temperature across time.
+
